@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+backend/venv/
+
+# Environment
+.env.local
+.env*.local
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data & Models (too large for git)
+backend/data/
+backend/models/*.pkl
+
+# Logs
+*.log
+error*.log
+error*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
